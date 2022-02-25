@@ -1,0 +1,46 @@
+how to host a laravel project
+-push your code to yur git repo
+===git init
+===git add .
+===git commit "laravel project
+== git add origin http...
+== git push -u origin master
+
+++create a a heroku account and login to it
+==click on New at the top right corner and click on Create new app
+==give the app name in lower case,
+== leave the region as USA by default
+==create new pipeline(same name as the app name)
+==click on create app
+==click on connect to github
+==search for a repo to connect to 
+==click on search
+==the repo should be listed and click on 
+==Connect
+==click on deploy branch
+==your app was successfully deployed message will appear at the bottom  and then click on 
+==View
+==Forbidden message appears
+==create a procfile in your root folder of your project and type the following code in it
+	web: vendor/bin/heroku-php-apache2 public/
+==then add the changes to your git repo by 
+	git add .
+	git commit -m "procfile added"
+	git push -u origin master
+==click on "deploy branch" button again and then click on 
+==View
+	and this time there is another diff error which is 500 | server error
+	NOTE: This error normally happens when laravel is looking for env variables and it cant find it 
+	and that means you hav to add the .env file to your heroku dashboard and this is done by clicking on 
+==Settings on the heroku dashboard and provide the following from the .env file
+APP_NAME - hospital-appointment-booking
+APP_ENV - local
+APP_KEY - .....
+APP_DEBUG true
+APP_URL - https://hostingonheroku.herokuapp.com/
+
+NOTE click on "Enable Automatic deploys" button such that whenever you make changes on your github repo then 
+	they also be reflected into your herokuapp as well
+
+=
+
