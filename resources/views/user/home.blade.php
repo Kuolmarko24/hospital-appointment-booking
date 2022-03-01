@@ -31,17 +31,16 @@
         <div class="row">
           <div class="col-sm-8 text-sm">
             <div class="site-info">
-              <a href="#"><span class="mai-call text-primary"></span> +256 7746 099 78</a>
+              <a href="tel://256774609978"><span class="mai-call text-primary"></span> +256 7746 099 78</a>
               <span class="divider">|</span>
-              <a href="#"><span class="mai-mail text-primary"></span> kuolmarko47@gmail.com</a>
+              <a href="mailto:kuolmarko47.com"><span class="mai-mail text-primary"></span> kuolmarko47@gmail.com</a>
             </div>
           </div>
           <div class="col-sm-4 text-right text-sm">
             <div class="social-mini-button">
-              <a href="#"><span class="mai-logo-facebook-f"></span></a>
-              <a href="#"><span class="mai-logo-twitter"></span></a>
-              <a href="#"><span class="mai-logo-dribbble"></span></a>
-              <a href="#"><span class="mai-logo-instagram"></span></a>
+              <a href="https://facebook.com/kuolmarko"><span class="mai-logo-facebook-f"></span></a>
+              {{-- <a href="#"><span class="mai-logo-twitter"></span></a> --}}
+              <a href="https://instagram.com/kuolual"><span class="mai-logo-instagram"></span></a>
             </div>
           </div>
         </div> <!-- .row -->
@@ -154,7 +153,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 py-3 wow fadeInUp">
             <h1>Welcome to Your Health <br> Center</h1>
-            <p class="text-grey mb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Accusantium aperiam earum ipsa eius, inventore nemo labore eaque porro consequatur ex aspernatur. Explicabo, excepturi accusantium! Placeat voluptates esse ut optio facilis!</p>
+            <p class="text-grey mb-4">At One Health Center, we consider saving life first then pay for your bills later on once you are healed. You can always make an appoint with us online using one health app.!</p>
             <a href="about.html" class="btn btn-primary">Learn More</a>
           </div>
           <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
