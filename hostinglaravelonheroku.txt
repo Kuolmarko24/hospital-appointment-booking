@@ -37,10 +37,18 @@ APP_NAME - hospital-appointment-booking
 APP_ENV - local
 APP_KEY - .....
 APP_DEBUG true
-APP_URL - https://hostingonheroku.herokuapp.com/
+APP_URL - https://healthy-hospital.herokuapp.com/
 
 NOTE click on "Enable Automatic deploys" button such that whenever you make changes on your github repo then 
 	they also be reflected into your herokuapp as well
+
+
+
+
+
+To add database, you have to click on Resources from heroku dashboard
+then click on add ons
+
 
 =
 
